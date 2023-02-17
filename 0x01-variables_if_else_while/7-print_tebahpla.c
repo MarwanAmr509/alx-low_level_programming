@@ -8,6 +8,7 @@
 int main(void)
 {
 	int letter = 0;
+
 	while (letter < 26)
 	{
 		putchar('z' - letter);
