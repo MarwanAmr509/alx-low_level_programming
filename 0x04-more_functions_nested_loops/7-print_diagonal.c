@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- * _isdigit - checks for a digit from 0 to 9
- * @c: the charachter which will be used
- * Return: 1 if c is digit, else return 0
+ * print_diagonal -  draws a diagonal line on the terminal
+ * @n:  is the number of times the character \ should be printed
+ * Return: 0 if n less than or equal to 0
  */
 void print_diagonal(int n)
 {
 	int i, j;
+
 	if (n <= 0)
 	{
 		_putchar('\n');
