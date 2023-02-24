@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _isdigit - checks for a digit from 0 to 9
- * @c: the charachter which will be used
- * Return: 1 if c is digit, else return 0
+ * print_to_98 -  prints all natural numbers from n to 98
+ * @n: the number which will be used
+ * Return: void
  */
 
 void print_to_98(int n)
