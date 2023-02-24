@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - print digit from 1 to 100 and print fizz if the number is a multiple of 3
- * Return: digits from 1 to 100
+ * print_alphabet_x10 - print alphabets 10 times
+ * Return: alphabets 10 times
  */
 
 void print_alphabet_x10(void)
