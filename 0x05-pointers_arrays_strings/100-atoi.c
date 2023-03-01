@@ -30,15 +30,15 @@ int _atoi(char *s)
 			num = s[i] - '0';
 			if (j % 2)
 			{
-				digit = -digit;
+				num = -num;
 			}
-			n = n * 10 + digit;
+			n = n * 10 + num;
 			k = 1;
 			if (s[i + 1] < '0' || s[i + 1] > '9')
 			{
 				break;
 			}
-			f = 0;
+			k = 0;
 		}
 		i++;
 	}
