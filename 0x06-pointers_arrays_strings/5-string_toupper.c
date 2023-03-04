@@ -6,7 +6,7 @@
  * Return: 1 if c is digit, else return 0
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
 	int i = 0;
 
