@@ -3,7 +3,7 @@
 /**
  * reverse_array - reverse array of integers
  * @a: the input array
- * @n: number of elements of the array 
+ * @n: number of elements of the array
  * Return: 1 if c is digit, else return 0
  */
 
