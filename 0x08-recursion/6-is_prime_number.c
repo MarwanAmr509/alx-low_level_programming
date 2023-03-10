@@ -2,8 +2,8 @@
 
 /**
  * prime - finds prime
- * @n: checker
- * @y: counter
+ * @x: checker
+ * @count: counter
  * Return: 1 if prime 0 otherwise
  */
 int prime(int x, int count)
